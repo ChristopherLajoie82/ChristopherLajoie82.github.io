@@ -97,12 +97,14 @@ Enhancement Three completed the transformation into a production-ready applicati
 ## Artifacts and Source Code
 
 ### Original Artifact
-- [View Original Source Code](https://github.com/ChristopherLajoie82/ChristopherLajoie82.github.io/tree/main/artifacts/original)
+- [View Original Source Code](https://github.com/ChristopherLajoie82/CS-499-Capstone/tree/main/paint_tracker)
 
 ### Enhanced Artifacts
-- [Enhancement One: Software Design](https://github.com/ChristopherLajoie82/ChristopherLajoie82.github.io/tree/main/artifacts/enhancement-one)
-- [Enhancement Two: Algorithms](https://github.com/ChristopherLajoie82/ChristopherLajoie82.github.io/tree/main/artifacts/enhancement-two)
-- [Enhancement Three: Databases](https://github.com/ChristopherLajoie82/ChristopherLajoie82.github.io/tree/main/artifacts/enhancement-three)
+- [Enhancement One (v1.0): Software Design](https://github.com/ChristopherLajoie82/CS-499-Capstone/tree/main/paint_tracker_v1.0)
+- [Enhancement Two (v2.0): Algorithms](https://github.com/ChristopherLajoie82/CS-499-Capstone/tree/main/paint_tracker_v2.0)
+- [Enhancement Three (v3.0): Databases](https://github.com/ChristopherLajoie82/CS-499-Capstone/tree/main/paint_tracker_v3.0)
+
+---
 
 ### Enhancement Narratives (PDF)
 - [Enhancement One Narrative](narratives/enhancement-one-narrative.pdf)
