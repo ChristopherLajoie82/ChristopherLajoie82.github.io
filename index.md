@@ -106,11 +106,4 @@ Enhancement Three completed the transformation into a production-ready applicati
 
 ---
 
-### Enhancement Narratives (PDF)
-- [Enhancement One Narrative](narratives/enhancement-one-narrative.pdf)
-- [Enhancement Two Narrative](narratives/enhancement-two-narrative.pdf)
-- [Enhancement Three Narrative](narratives/enhancement-three-narrative.pdf)
-
----
-
 *Last updated: December 2025*
