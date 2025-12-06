@@ -60,7 +60,7 @@ I took a 400-line monolithic script where UI, database, and business logic were 
 
 ## Enhancement Two: Algorithms and Data Structures
 
-This is where industry knowledge meets computer science. The PaintMixCalculator encodes 17 years of paint industry experience into working algorithms that compute component breakdowns using standard mixing ratios.
+This is where industry knowledge meets computer science. The PaintMixCalculator encodes 21 years of paint industry experience into working algorithms that compute component breakdowns using standard mixing ratios.
 
 **Key Accomplishments:**
 - PaintMixCalculator with O(1) constant-time complexity
