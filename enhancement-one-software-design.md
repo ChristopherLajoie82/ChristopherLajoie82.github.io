@@ -189,19 +189,19 @@ Security considerations permeate the entire design:
 
 ### What I Learned
 
-The most valuable lesson was experiencing firsthand why proper architecture matters. When I needed to add CSV export functionality, I only touched the BLL and Presentation layers—the DAL remained untouched. When migrating from Tkinter to PySide6, only the Presentation layer changed while BLL and DAL stayed 100% the same. This demonstrated separation of concerns in practice, not just theory.
+The most important thing I learned was to experience for myself the purpose of proper architecture. When I added functionality to allow for CSV exporting, I only had to make changes in the BLL and Presentation layers -- the DAL layer was not even touched. Likewise, when I migrated from Tkinter to PySide6, only the Presentation layer changed -- the BLL and DAL layers were 100% the same. This was a great way to see separation of concerns in action, not just in theory.
 
-I also learned that **more code isn't necessarily bad code**. Going from 255 lines to nearly 2,500 lines might seem like added complexity, but each individual component is now easier to understand in isolation. The Repository pattern made security auditing straightforward—every SQL statement in one place means I can verify every query is parameterized.
+I also learned that good code doesn't have to have a limited number of lines of code. Admittedly, the nearly 2,500 lines is a jump from 255, but now each discrete piece of functionality is much easier to understand on its own. Because of the Repository pattern, making sure the application is secure is now easier -- every SQL statement is in a single place, and I can easily check that every query is parameterized.
 
 ### Challenges Faced
 
-The biggest challenge was managing the scope of refactoring a monolithic application where everything connects to everything else. I couldn't just refactor the database layer in isolation—I had to consider how the BLL would interface with it, how the UI would call the BLL, and how all the pieces fit together. The solution was being methodical: refactor one layer at a time, test thoroughly, then move to the next.
+The biggest challenge, which isn't something I faced while doing the work, was that of dealing with the scope of refactoring a single monolithic application where everything depends on everything else. I couldn't simply refactor the database layer in a vacuum; I had to also think about how the BLL will need to be written to access it, and how the UI will need to be written to call the BLL, and on and on. There's a risk in proceeding one step at a time like that, in that you can spend so much time getting one thing right that you forget to move on. The solution to that was to be extremely methodical about it: refactor one layer, test extensively, then move on to the next.
 
-The PySide6 migration was more complex than anticipated. Qt is powerful but that power comes with complexity. Widgets behave differently than Tkinter, layout management is more sophisticated, and there's simply more to configure. However, the investment paid off in a professional-looking application.
+Another challenge was the migration to PySide6 was more complicated than I expected. Qt is a very powerful framework, but with that power comes complexity. Widgets behave in different ways than Tkinter, the layout management is more sophisticated, and frankly, there's more to configure overall. In the end, it was well worth it to have an application that looks and feels professional.
 
 ### Connection to My Background
 
-This enhancement reminded me of lessons from my painting career: "proper prep is 80% of the job." The same applies to software—architectural decisions made upfront determine how maintainable and extensible the code will be. The attention to detail I developed while mixing paint (being off by a few drops can ruin a color match) translates directly to software development, where small details can mean the difference between creating bugs and security vulnerabilities or not.
+This entire enhancement was a reminder of something I learned back when I worked in the paint industry: "proper prep is 80% of the job." In this case, it's true that the initial architectural decisions really set up the maintainability and extensibility of the code. I also think the amount of attention to detail that I have developed through years of being able to mix paint (getting off by just a few drops can result in a miss match) applies well to software development. Likewise, in both cases, small details can make the difference between introducing bugs and security issues or not.
 
 ## Links
 
