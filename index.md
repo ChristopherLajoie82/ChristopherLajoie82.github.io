@@ -1,4 +1,3 @@
-# Christopher R. Lajoie
 
 ### Computer Science ePortfolio — SNHU CS 499
 
@@ -38,7 +37,7 @@ This isn't just a capstone artifact—it's a working application that solves rea
 
 The code review video walks through the original artifact's architecture, identifies areas for improvement, and outlines the enhancement plan for all three categories. This review demonstrates my ability to critically evaluate code and communicate technical decisions.
 
-- [Watch the Code Review Video](code-review.md)
+- [Watch the Code Review Video]([code-review.md](https://github.com/ChristopherLajoie82/ChristopherLajoie82.github.io/blob/main/CS499-Code-Review-Lajoie.mp4))
 
 ---
 
